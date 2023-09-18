@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo sobre Google Glass</title>
+
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+
+            <img src="./img/multimidia.png" alt="imagem multimidia" id="icone">
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul onmouseout="alteraFoto('glass-oculos-preto-peq')">
+                    <li onmouseover="alteraFoto('home')"><a href="index.html">Home</a></li>
+                    <li onmouseover="alteraFoto('especificacoes')"><a href="specs.html">Especificações</a></li>
+                    <li onmouseover="alteraFoto('fotos')"><a href="fotos.html">Fotos</a></li>
+                    <li onmouseover="alteraFoto('multimidia')"><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="alteraFoto('contato')"><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Tiago Silva</h2>
+                        <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
+                <div id="tv-radio">
+                    <audio id="musica" controls="controls">
+                        <source src="media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+                        <source src="media/2009-lovers-carvings-bibio.oggvorbis.ogg" />
+                        Desculpe, mas não foi possível carregar o áudio.
+                    </audio>
+                    <video controls="controls" id="filme" poster="img/video-mini03.jpg">
+                        <source src="media/getting-started.mp4" type="video/mp4" />        
+                        <source src="media/getting-started.ogv" type="video/ogg" />
+                        Desculpe, mas não foi possível carregar o video.        
+                    </video>
+                </div>
+            </article>
+        </section>
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2013 - by Tiago Silva <br/>
+            <a href="https://www.linkedin.com/in/tiago-silva-b11350197/" target="_blank">Linkedin</a> | 
+            <a href="https://github.com/tiagobsb84" target="_blank">Github</a></p>
+        </footer>
+    </div>
+</body>
+</html>
